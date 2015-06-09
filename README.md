@@ -1,7 +1,7 @@
 # jQuery-Viewport-Listener
 
-	Detects if the target element has entered or left the viewport boundaries. 
-
+	Detects if the target element has entered or left the viewport boundaries and fires the attached callback function. 
+	
 
 ```javascript
 
