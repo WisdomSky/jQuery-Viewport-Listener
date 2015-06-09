@@ -1,5 +1,5 @@
 /*
-**             Anakusis JS v1.0               
+**       jQuery ViewportListener v1.0      
 **
 **	Open source under the MIT License.
 **	      (c) 2015 WisdomSky
