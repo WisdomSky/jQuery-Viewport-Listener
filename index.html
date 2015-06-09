@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Viewport Listener for jQuery</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="./viewportlistener.jquery.js"></script>
+
+		<style type="text/css">
+			body {
+				height: 2000px;
+				width: 2000px;	
+			}
+		</style>
+		<script type="text/javascript">
+
+			$(function(){
+				// $("#wew").viewportenter(function(e){
+				// 		console.log("viewportenter");			
+				// });
+				// $("#wew").viewportleave(function(e){
+				// 		console.log("viewportleave");			
+				// });
+
+				$("#wew").on("viewportenter", function(e){
+						console.log("viewportenter2");			
+				});
+				$("#wew").on("viewportleave", function(e){
+						console.log("viewportleave2");			
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="wew" style="position:absolute;top:800px;left:500px;height:100px;border:1px solid #f00;">Sample element</div>
+	</body>
+</html>
